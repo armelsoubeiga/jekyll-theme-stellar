@@ -15,23 +15,38 @@ phone: (716) 555-5555
 email: youremailaddress@gmail.com
 
 # Social settings
-500px_url: https://github.com/moodule
-facebook_url: https://github.com/moodule
-github_url: https://github.com/moodule
-gitlab_url: https://github.com/moodule
-instagram_url: https://github.com/moodule
-linkedin_url: https://github.com/moodule
-medium_url: https://github.com/moodule
-pinterest_url: https://github.com/moodule
-slack_url: https://github.com/moodule
-snapchat_url: https://github.com/moodule
-twitter_url: https://github.com/moodule
+500px:
+  url: https://github.com/moodule
+facebook:
+  url: https://github.com/moodule
+github:
+  url: https://github.com/moodule
+gitlab:
+  url: https://github.com/moodule
+instagram:
+  url: https://github.com/moodule
+linkedin:
+  url: https://github.com/moodule
+medium:
+  url: https://github.com/moodule
+pinterest:
+  url: https://github.com/moodule
+slack:
+  url: https://github.com/moodule
+snapchat:
+  url: https://github.com/moodule
+twitter:
+  url: https://github.com/moodule
 
 # Optional elements
-logo_url: /assets/images/logo.svg
-favicon_url: /assets/images/favicon.ico
-legal_terms_url: /legal-terms
-privacy_policy_url: /privacy-policy
+logo:
+  url: /assets/images/logo.svg
+favicon:
+  url: /assets/images/favicon.ico
+legal_terms:
+  url: /en/legal-terms
+privacy_policy:
+  url: /en/privacy-policy
 
 # Collections
 collections:
@@ -74,5 +89,8 @@ sass:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://moodule.github.io/jekyll-theme-stellar" # the base hostname & protocol for your site, e.g. http://example.com
 author: David Mougeolle
+copyright:
+  holder: Untitled
+  license: CC0
 
 # Exclude from processing
